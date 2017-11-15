@@ -1,0 +1,74 @@
+PODS:
+  - Birdsong (0.6.0):
+    - Starscream (= 3.0.2)
+  - KayakoMessenger (0.3.0):
+    - Birdsong
+    - NVActivityIndicatorView
+    - PINCacheTexture
+    - StatefulViewController
+    - Texture
+    - Unbox
+    - Wrap
+  - NVActivityIndicatorView (4.0.0):
+    - NVActivityIndicatorView/Presenter (= 4.0.0)
+  - NVActivityIndicatorView/Presenter (4.0.0)
+  - PINCache (3.0.1-beta.5):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.5)
+    - PINCache/Core (= 3.0.1-beta.5)
+  - PINCache/Arc-exception-safe (3.0.1-beta.5):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.5):
+    - PINOperation (= 1.0.3)
+  - PINCacheTexture (0.0.4):
+    - PINCache
+    - Texture
+  - PINOperation (1.0.3)
+  - PINRemoteImage/Core (3.0.0-beta.12):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0-beta.12):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.12):
+    - PINCache (= 3.0.1-beta.5)
+    - PINRemoteImage/Core
+  - Starscream (3.0.2)
+  - StatefulViewController (3.0)
+  - Texture (2.5.1):
+    - Texture/PINRemoteImage (= 2.5.1)
+  - Texture/Core (2.5.1)
+  - Texture/PINRemoteImage (2.5.1):
+    - PINRemoteImage/iOS (= 3.0.0-beta.12)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+  - Unbox (2.5.0)
+  - Wrap (3.0.0)
+
+DEPENDENCIES:
+  - KayakoMessenger (from `https://github.com/kayako/KayakoMessengeriOS.git`, branch `response-time-null-fixes`)
+
+EXTERNAL SOURCES:
+  KayakoMessenger:
+    :branch: response-time-null-fixes
+    :git: https://github.com/kayako/KayakoMessengeriOS.git
+
+CHECKOUT OPTIONS:
+  KayakoMessenger:
+    :commit: 07327558cab26b0d3b8a37e62e866bb09957a431
+    :git: https://github.com/kayako/KayakoMessengeriOS.git
+
+SPEC CHECKSUMS:
+  Birdsong: beda6369ea7938b75e54c09ec3ab13f7c4c0483f
+  KayakoMessenger: 4f603aa3f12f4b43f983b4ac39802f75b578ad5e
+  NVActivityIndicatorView: 54c9b93b6f25a4f467512680c0c90c09a1095cf2
+  PINCache: 98e7b1ef782824ad231ade51987c218b758c30d8
+  PINCacheTexture: d3112ffb987b47b59b3ec81112c3afc9f496f306
+  PINOperation: ac23db44796d4a564ecf9b5ea7163510f579b71d
+  PINRemoteImage: 0cefe720c2612960bd360710efbd6c73a1991d5f
+  Starscream: b512c62f6706421221b5ceb2ba01a9f58aca5bea
+  StatefulViewController: 4803bf900d44de26074344998e10e041113b5931
+  Texture: c3f06e344aa091667b7a56002e525cde674d021a
+  Unbox: 30e437e6151a6de16139375fd4e8dd9a664cfbf7
+  Wrap: 918fdb5157e4f701f9503b2633752d6f94616f84
+
+PODFILE CHECKSUM: 2a5152f44899ccaadae18a6a00072244f221bad2
+
+COCOAPODS: 1.2.1

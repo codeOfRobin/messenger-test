@@ -1,0 +1,6 @@
+framework module KayakoMessenger {
+  umbrella header "KayakoMessenger-umbrella.h"
+
+  export *
+  module * { export * }
+}

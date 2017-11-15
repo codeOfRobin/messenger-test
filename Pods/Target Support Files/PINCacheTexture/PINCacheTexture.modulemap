@@ -1,0 +1,6 @@
+framework module PINCacheTexture {
+  umbrella header "PINCacheTexture-umbrella.h"
+
+  export *
+  module * { export * }
+}
