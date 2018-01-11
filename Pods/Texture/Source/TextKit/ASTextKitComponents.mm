@@ -65,7 +65,7 @@
 
 - (void)dealloc
 {
-  ASDisplayNodeAssertMainThread();
+//  ASDisplayNodeAssertMainThread();
 
   // Nil out all delegate to prevent crash
   _textView.delegate = nil;

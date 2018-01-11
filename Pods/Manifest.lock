@@ -52,7 +52,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   KayakoMessenger:
-    :commit: 07327558cab26b0d3b8a37e62e866bb09957a431
+    :commit: a4fe25f578acfb6dcd3bca5f3d2ec450df1a2dfc
     :git: https://github.com/kayako/KayakoMessengeriOS.git
 
 SPEC CHECKSUMS:
